@@ -37,7 +37,7 @@ namespace ParallelComputingNet
             Console.WriteLine($"QuickSort Execution Time: {watch.ElapsedMilliseconds} ms.");
             Console.WriteLine($"QuickSort Execution Time: {watch.ElapsedMilliseconds * 1000000} ns.");
 
-            Console.WriteLine("Would you like to print sorted array? Type Y/N.");
+            Console.WriteLine("Would you like to print array? Type Y/N.");
             string printVar = Console.ReadLine();
             if (printVar == "Y" || printVar == "y")
             {
